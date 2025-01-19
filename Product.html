@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> All Products -RedStore </title>
+    <link rel="stylesheet" href="style.css">
+    <!----google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+
+    <div class="navbar">
+<div class="logo">
+ <a href="index.html"><img src="images/logoredstore.png" alt="" width="80px"></a>
+</div>
+<nav>
+<ul id="MenuItems">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Product.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="Account.html">Account</a></li>
+
+</ul>
+</nav>
+<!---card-->
+<div class="small-container">
+
+ <a href="cart.html"><img src="images/cart.jpg" alt="" width="50px" height="50px"></a>
+<img src="download.png" alt="" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+<div class="row row-2">
+ <a href="productdetails.html"><h2>All Products</h2></a>
+<select>
+    <option>Default Shorting</option>
+    <option>Short by price</option>
+    <option> Short by popularity</option>
+    <option> Short by rating</option>
+    <option>Short by sale</option>
+
+</select>
+</div>
+
+<div class="row">
+<div class="col-4">
+    <img src="images/shirt1.jpg" alt="">
+    <h4>Grey Printed Shirt</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$80.00</p>
+</div>
+
+<div class="col-4">
+    <img src="images/shirt2.jpg" alt="">
+    <h4>Skincolor Printed Shirt</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+
+    </div>
+    <p>$85.00</p>
+</div>
+
+<div class="col-4">
+    <img src="images/shirtm1.jpg" alt="">
+    <h4>blue Printed T-Shirt</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$55.00</p>
+</div>
+
+<div class="col-4">
+    <img src="images/shirtm2.jpg" alt="" width="20%">
+    <h4>Black Printed T-Shirt</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+
+   <div class="col-4">
+    <img src="images/watchmen4.jpg" alt="" >
+    <h4>Silver Blue Watch</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$55.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/watchmen5.jpg" alt="" >
+    <h4>Silver Green Watch</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$65.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/watchwomen1.jpg" alt="" >
+    <h4>Skincolor Green Watch</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$58.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/watchwomen2.jpg" alt="" >
+    <h4>Skincolor Pink Watch</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+
+   <div class="col-4">
+    <img src="images/makeup4.jpg" alt="">
+    <h4>Cosmetics Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$85.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/makeup1.jpg" alt="">
+    <h4>Cosmetics Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$85.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/mainproduct.jpg" alt="">
+    <h4>Skincare Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$90.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/skincarep3.jpg" alt="" >
+    <h4>Skincare Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$80.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/electronic3.jpeg" alt="" >
+    <h4>Electronic Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$100.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/electronic4.jpeg" alt="" >
+    <h4>Electronic Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/eleimg2.jpeg" alt="" >
+    <h4>Electronic Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$100.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/eleimg3.jpeg" alt="" >
+    <h4>Electronic Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$120.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/phone3.jpg" alt="" width="50%" >
+    <h4>Latest Smart Phones Products</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/phonemain.jpg" alt="" >
+    <h4>Latest Smart Phones Products</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/phone1.jpg" alt="" >
+    <h4>Latest Smart Phones Products</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/phone2.jpg" alt="" >
+    <h4>Latest Smart Phones Products</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500.00</p>
+   </div>
+
+
+
+   <div class="col-4">
+    <img src="images/shoeswomen1.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen2.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$60.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen3.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$70.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen4.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$55.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen5.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$58.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen6.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen7.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$60.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoeswomen8.jpg" alt="">
+    <h4>Women's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+
+   <div class="col-4">
+    <img src="images/shoes5.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes6.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$58.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes7.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$60.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes8.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes9.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes10.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes13.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$60.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/shoes4.jpeg" alt="">
+    <h4>Men's Shoes Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$50.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/main1car.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car1.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car2.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car3.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car4.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car6.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+   <div class="col-4">
+    <img src="images/car7.jpg" alt="">
+    <h4>Latest Cars Collection</h4>
+
+    <div class="rating">
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+
+    </div>
+    <p>$500000.00</p>
+   </div>
+
+    </div>
+<div class="page-btn">
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4</span>
+<span>&#8594;</span>
+
+</div>
+ </div>
+
+
+
+
+
+
+<!----footer-->
+          <div class="footer">
+      <div class="container">
+    <div class="row">
+     <div class="footer-col-1">
+       <h3>Download Our App</h3>
+     <p>Download App for Android and ios mobile phone</p>
+    <div class="app-logo">
+<img src="images/app-store.png" alt="">
+<img src="images/logo2.png" alt="">
+
+    </div> 
+    </div>
+<div class="footer-col-2">
+    <img src="images/redstore.png" alt="">
+         <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of sports Accessible to the Many.</p>
+    
+        </div>
+<div class="footer-col-3">
+<h3>Useful Links</h3>
+<ul>
+    <li>Coupons</li>
+    <li>Blog Post</li>
+    <li>Return Policy</li>
+    <li>Jion Affiliate</li>
+
+</ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        
+                        </ul>
+            
+                     </div>
+                 </div>
+
+                 <hr>
+                 <p class="Copyright">  Copyright@-2025 All rights reserved with Saima Ahmed Sial</p>
+              </div>
+           </div>
+<!------js for toggle menu-->
+
+<script>
+    var MenuItems = document.getElementById("MenuItem");
+    
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+    {
+        MenuItems.style.maxHeight = "200px";
+
+    }
+    else{
+        MenuItems.style.maxHeight = "0px";
+
+    }
+    }
+
+</script>
+<script src="index.js"></script>
+</body>
+</html>
